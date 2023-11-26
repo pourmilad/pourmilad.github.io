@@ -1,32 +1,40 @@
-title: "Milad Pourdanandeh"
-author: "Milad Pourdanandeh"
-description: "University of Gothenburg"
-permalink: /:title/
-lang: "en"
-excerpt_separator: "\n\n\n"
-date_format: "%Y-%B-%d"
+# _config.yml
 
-# Layout
+# Site settings
+title: Your Website Title
+description: Your website description
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-show_excerpts: true        # show article excerpts on the home page
-show_frame: false           # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
-minimal: true             # use a dark header
+# Theme settings
+theme: jekyll-theme-contrast
 
-# Menu
+# Color customization
+contrast_color: "#000000" # Set the main color to black or your preferred dark color
+header_color: "#333333"   # Adjust the header color
 
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html"}
-  - {file: "README.md"}
+# Navigation links
+nav_links:
+  - title: Home
+    url: /
 
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+# Build settings
+markdown: kramdown
+highlighter: rouge
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - _site
 
-comments:
-#  disqus_shortname: ""    # see https://disqus.com/
-#  isso_domain: ""         # see https://posativ.org/isso/
+# Permalink settings
+permalink: /:year/:month/:day/:title/
 
-plugins:
- - jekyll-feed
+# Collections settings (if needed)
+collections:
+  your_collection_name:
+    output: true
+    permalink: /:path/
+
+# Other settings...
