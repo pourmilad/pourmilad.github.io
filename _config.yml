@@ -1,10 +1,10 @@
 title: "Milad Pourdanandeh"
 author: "Milad Pourdanandeh"
-description: "University of Gothenburg"
+description: "Department of Marine Sciences<br>University of Gothenburg"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
-date_format: "%Y-%B-%d"
+date_format: "%Y-%m-%d"
 
 # Layout
 
