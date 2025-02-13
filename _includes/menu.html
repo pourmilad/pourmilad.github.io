@@ -7,7 +7,11 @@
     {% if item.icon %}
       <i class="{{ item.icon }}"></i>
     {% endif %}
-    {{ title }}
+    {% if title contains "<i" %}
+      {{ title }}
+    {% else %}
+      {{ title | escape }}
+    {% endif %}
   </a>
 {%- endfor -%}
 </nav>
