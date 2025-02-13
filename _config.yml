@@ -18,6 +18,7 @@ navigation:
   - {title: '<i class="fa-brands fa-google-scholar"></i> Scholar', url: "https://scholar.google.se/citations?hl=en&user=nySwgx0AAAAJ"}
   - {title: "UoG", url: "https://www.gu.se/en/about/find-staff/miladpourdanandeh"}
   - {title: "Lab", url: "https://pelagial.se/"}
+  - {title: '<i class="fa-brands fa-researchgate"></i>', url: "https://www.researchgate.net/profile/Milad-Pourdanandeh"}
   - {title: "About", file: "README.md"}
 
 external:
