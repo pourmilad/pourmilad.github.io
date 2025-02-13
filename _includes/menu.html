@@ -3,15 +3,14 @@
   {%- assign node = site.pages | where: "name", item.file | first -%}
   {%- assign url = item.url | default: node.url -%}
   {%- assign title = item.title | default: node.title -%}
-  <a href="{{ url | relative_url }}">
-    {% if item.icon %}
-      <i class="{{ item.icon }}"></i>
-    {% endif %}
-    {% if title contains "<i" %}
-      {{ title }}
-    {% else %}
-      {{ title | escape }}
-    {% endif %}
-  </a>
+  <a href="{{ url | absolute_url }}">
+  {% if item.icon %}
+    <i class="{{ item.icon }}"></i>
+  {% endif %}
+  {% if title != "" %}
+    {{ title }}
+  {% endif %}
+</a>
 {%- endfor -%}
 </nav>
+
