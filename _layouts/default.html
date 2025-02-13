@@ -47,7 +47,7 @@
   {% assign pages = site.pages | where_exp: "item", "item.title and item.sitemap != false" | sort: "order" %}
 {% endif %}
 
-<header>
+  <header class="header-container">
   <a href="{{ "/" | relative_url }}" class="title-container">
     <img src="{{ "/assets/images/profile.jpg" | relative_url }}" alt="Profile Picture" class="profile-pic">
     <span class="title">{{ site.title | escape }}</span>
