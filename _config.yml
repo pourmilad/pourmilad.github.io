@@ -9,7 +9,7 @@ date_format: "%Y-%m-%d"
 # Layout
 show_excerpts: false        # show article excerpts on the home page
 show_frame: false           # adds a gray frame to the site
-show_sidebar: false         # show a sidebar instead of the usual header
+show_sidebar: false        # show a sidebar instead of the usual header
 minimal: true              # use a dark header
 
 # Menu
@@ -21,9 +21,9 @@ navigation:
   - {title: "About", file: "README.md"}
 
 external:
-  - {icon: envelope, url: "mailto:milad.pourdanandeh@gu.se"}
-  - {icon: github, url: "https://github.com/pourmilad"}
-  - {title: '<i class="fa-brands fa-bluesky"></i>', url: "https://bsky.app/profile/pourmilad.bsky.social"}
+  - {title: "Mail", icon: "fa-solid fa-envelope", url: "mailto:milad.pourdanandeh@gu.se"}
+  - {title: "GitHub", icon: "fa-brands fa-github", url: "https://github.com/pourmilad"}
+  - {title: "Bluesky", icon: "fa-brands fa-bluesky", url: "https://bsky.app/profile/pourmilad.bsky.social"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
