@@ -27,15 +27,19 @@ body > footer
   border-top: 1px solid reduce(14)
   opacity: .9
 
-// Profile picture styling (corrected)
+.header-container
+  display: flex
+  align-items: center
+  justify-content: space-between  // Ensures menu stays aligned properly
+  padding: 10px  // Adjust padding for spacing
+
+.title-container
+  display: flex
+  align-items: center
+
 .profile-pic
   width: 40px  // Adjust size as needed
   height: 40px
   border-radius: 50%  // Makes the image circular
   object-fit: cover
-  margin-right: 10px
-  vertical-align: middle
-
-.title-container
-  display: flex
-  align-items: center
+  margin-right: 10px  // Adds space between the image and title
