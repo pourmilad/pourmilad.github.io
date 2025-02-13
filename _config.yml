@@ -23,7 +23,7 @@ navigation:
 external:
   - {icon: "fa-solid fa-envelope", url: "mailto:milad.pourdanandeh@gu.se"}
   - {icon: "fa-brands fa-github", url: "https://github.com/pourmilad"}
-  - {title: '<i class="fa-brands fa-bluesky"></i>', url: "https://bsky.app/profile/pourmilad.bsky.social"}
+  - {icon: "fa-brands fa-bluesky", url: "https://bsky.app/profile/pourmilad.bsky.social"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
