@@ -21,9 +21,9 @@ navigation:
   - {title: "About", file: "README.md"}
 
 external:
-  - {title: "Mail", icon: envelope, url: "mailto:milad.pourdanandeh@gu.se"}
-  - {title: "Github", icon: github, url: "https://github.com/pourmilad"}
-  - {title: '<i class="fa-brands fa-bluesky"></i> Subscribe', url: "https://bsky.app/profile/pourmilad.bsky.social"}
+  - {icon: envelope, url: "mailto:milad.pourdanandeh@gu.se"}
+  - {icon: github, url: "https://github.com/pourmilad"}
+  - {title: '<i class="fa-brands fa-bluesky"></i>', url: "https://bsky.app/profile/pourmilad.bsky.social"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
