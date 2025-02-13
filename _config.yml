@@ -16,15 +16,16 @@ minimal: true             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "Blog", file: "blog.md"}
+  - {title: "Blog", icon: file-lines, file: "blog.md"}
+  - {title: "Scholar", icon: google-scholar, url: "https://scholar.google.se/citations?hl=en&user=nySwgx0AAAAJ"}
   - {title: "UoG", url: "https://www.gu.se/en/about/find-staff/miladpourdanandeh"}
-  - {title: "Lab", url: "https://pelagial.se/"}
+  - {title: "Lab", icon: flask, url: "https://pelagial.se/"}
   - {title: "About", file: "README.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:milad.pourdanandeh@gu.se"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Github, icon: github, url: "https://github.com/pourmilad"}
+  - {title: Subscribe, icon: bluesky, url: "https://bsky.app/profile/pourmilad.bsky.social"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
