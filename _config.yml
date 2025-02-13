@@ -16,7 +16,7 @@ minimal: true             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "Blog", file: "/blog.md"}
+  - {title: "Blog", file: "blog.md"}
   - {title: "UoG", url: "https://www.gu.se/en/about/find-staff/miladpourdanandeh"}
   - {title: "Lab", url: "https://pelagial.se/"}
   - {file: "README.md"}
