@@ -48,7 +48,10 @@
 {% endif %}
 
 <header>
-  <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
+  <a href="{{ "/" | relative_url }}" class="title-container">
+    <img src="{{ "/assets/images/profile.jpg" | relative_url }}" alt="Profile Picture" class="profile-pic">
+    <span class="title">{{ site.title | escape }}</span>
+  </a>
   {% include menu.html menu=pages %}
 </header>
 
