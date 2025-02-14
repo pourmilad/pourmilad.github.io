@@ -19,6 +19,7 @@ navigation:
   - {title: "UoG", url: "https://www.gu.se/en/about/find-staff/miladpourdanandeh"}
   - {title: "Lab", url: "https://pelagial.se/"}
   - {title: '<i class="fa-brands fa-researchgate"></i>', url: "https://www.researchgate.net/profile/Milad-Pourdanandeh"}
+  - {title: "CV", file: "Milad_CV.pdf"}
 
 external:
   - {title: "", icon: "fa-solid fa-envelope", url: "mailto:milad.pourdanandeh@gu.se"}
