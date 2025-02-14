@@ -14,7 +14,7 @@ minimal: true              # use a dark header
 
 # Menu
 navigation:
-  - {title: '<i class="fa-solid fa-file-lines"></i> Blog', file: "blog.md"}
+  - {title: '<i class="fa-solid fa-file-lines"></i> Blog', url: "/blog/"}
   - {title: '<i class="fa-brands fa-google-scholar"></i> Scholar', url: "https://scholar.google.se/citations?hl=en&user=nySwgx0AAAAJ"}
   - {title: "UoG", url: "https://www.gu.se/en/about/find-staff/miladpourdanandeh"}
   - {title: "Lab", url: "https://pelagial.se/"}
